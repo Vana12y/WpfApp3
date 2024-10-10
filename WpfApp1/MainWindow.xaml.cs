@@ -26,7 +26,7 @@ namespace WpfApp1
         private void slider2_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
         {
             if (Message != null)
-                Message.FontSize = ((Slider)sender).Value * 5 + 10;
+                Message.FontSize = ((Slider)sender).Value * 3 + 5;
         }
     }
 }
